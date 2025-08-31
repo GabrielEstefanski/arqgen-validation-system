@@ -369,4 +369,4 @@ As regras são configuradas diretamente no código através da `RegrasFactory`, 
 
 ---
 
-**ArqGen** - Sistema de validação de empreendimentos escalável e flexível 🏗️✨
+**ArqGen** - Sistema de validação de empreendimentos escalável e flexível

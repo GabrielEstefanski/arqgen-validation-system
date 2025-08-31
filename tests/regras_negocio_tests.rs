@@ -2,7 +2,7 @@ use arqgen::business_logic::validar_empreendimentos;
 use arqgen::models::empreendimento::Empreendimento;
 
 #[test]
-fn test_validacao_completa_multiplos_empreendimentos() {
+fn deve_validar_multiplos_empreendimentos_com_diferentes_regras() {
     let empreendimentos = vec![
         Empreendimento {
             construtora: "Alpha".to_string(),
@@ -56,7 +56,7 @@ fn test_validacao_completa_multiplos_empreendimentos() {
 }
 
 #[test]
-fn test_regras_especificas_por_cidade() {
+fn deve_aplicar_regras_especificas_por_cidade() {
     let empreendimentos = vec![
         Empreendimento {
             construtora: "Gamma".to_string(),
@@ -94,7 +94,7 @@ fn test_regras_especificas_por_cidade() {
 }
 
 #[test]
-fn test_regras_especificas_por_construtora() {
+fn deve_aplicar_regras_especificas_por_construtora() {
     let empreendimentos = vec![
         Empreendimento {
             construtora: "Alpha".to_string(),
@@ -132,7 +132,7 @@ fn test_regras_especificas_por_construtora() {
 }
 
 #[test]
-fn test_cenarios_edge_cases() {
+fn deve_tratar_cenarios_limite_e_edge_cases() {
     let empreendimentos = vec![
         Empreendimento {
             construtora: "Zeta".to_string(),
@@ -175,7 +175,7 @@ fn test_cenarios_edge_cases() {
 }
 
 #[test]
-fn test_regras_ignoradas_por_cidade() {
+fn deve_ignorar_regras_em_cidades_especificas() {
     let empreendimentos = vec![
         Empreendimento {
             construtora: "Iota".to_string(),
@@ -195,7 +195,7 @@ fn test_regras_ignoradas_por_cidade() {
 }
 
 #[test]
-fn test_performance_multiplos_empreendimentos() {
+fn deve_processar_rapidamente_multiplos_empreendimentos() {
     let mut empreendimentos = Vec::new();
     
     for i in 0..100 {

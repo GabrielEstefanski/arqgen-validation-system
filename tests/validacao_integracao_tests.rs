@@ -1,10 +1,10 @@
 use arqgen::business_logic::validar_empreendimentos;
 use arqgen::models::empreendimento::Empreendimento;
-mod common;
-use common::*;
+mod test_utils;
+use test_utils::*;
 
 #[test]
-fn test_integracao_completa_regras_negocio() {
+fn deve_validar_integracao_completa_das_regras_de_negocio() {
     let empreendimento_complexo = criar_empreendimento_com_violacoes();
 
     let resultado = validar_empreendimentos(&[empreendimento_complexo]);
@@ -33,7 +33,7 @@ fn test_integracao_completa_regras_negocio() {
 }
 
 #[test]
-fn test_integracao_regras_padrao_especificas() {
+fn deve_aplicar_regras_padrao_e_especificas_corretamente() {
     let empreendimentos = vec![
         Empreendimento {
             construtora: "Beta".to_string(),
@@ -72,7 +72,7 @@ fn test_integracao_regras_padrao_especificas() {
 }
 
 #[test]
-fn test_integracao_regras_ignoradas() {
+fn deve_processar_regras_ignoradas_em_cidades_especiais() {
     let empreendimento = criar_empreendimento_por_cidade("CidadeEspecial");
 
     let resultados = validar_empreendimentos(&[empreendimento]);
@@ -86,7 +86,7 @@ fn test_integracao_regras_ignoradas() {
 }
 
 #[test]
-fn test_integracao_diferentes_combinacoes() {
+fn deve_processar_diferentes_combinacoes_de_empreendimentos() {
     let empreendimentos = gerar_empreendimentos_teste();
 
     let resultados = validar_empreendimentos(&empreendimentos);
@@ -105,7 +105,7 @@ fn test_integracao_diferentes_combinacoes() {
 }
 
 #[test]
-fn test_integracao_cenarios_borda_extremos() {
+fn deve_tratar_cenarios_extremos_e_limites() {
     let empreendimentos = vec![
         Empreendimento {
             construtora: "Extrema".to_string(),
@@ -146,7 +146,7 @@ fn test_integracao_cenarios_borda_extremos() {
 }
 
 #[test]
-fn test_integracao_cenarios_especificos() {
+fn deve_aplicar_regras_especificas_em_combinacoes_complexas() {
     let empreendimento_especial = Empreendimento {
         construtora: "Alpha".to_string(),
         cidade: "Boituva".to_string(),
