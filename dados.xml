@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empreendimentos>
+  <empreendimento>
+    <construtora>Construtora A</construtora>
+    <cidade>São Paulo</cidade>
+    <area_do_terreno>10000</area_do_terreno>
+    <numero_de_torres>1</numero_de_torres>
+    <altura_da_torre>60</altura_da_torre>
+    <area_da_torre>3000</area_da_torre>
+    <area_de_lazer>100</area_de_lazer>
+  </empreendimento>
+  <empreendimento>
+    <construtora>Construtora B</construtora>
+    <cidade>Rio de Janeiro</cidade>
+    <area_do_terreno>8000</area_do_terreno>
+    <numero_de_torres>5</numero_de_torres>
+    <altura_da_torre>29</altura_da_torre>
+    <area_da_torre>100</area_da_torre>
+    <area_de_lazer>0</area_de_lazer>
+  </empreendimento>
+  <empreendimento>
+    <construtora>Construtora C</construtora>
+    <cidade>Belo Horizonte</cidade>
+    <area_do_terreno>6000</area_do_terreno>
+    <numero_de_torres>3</numero_de_torres>
+    <altura_da_torre>20</altura_da_torre>
+    <area_da_torre>1500</area_da_torre>
+    <area_de_lazer>200</area_de_lazer>
+  </empreendimento>
+  <empreendimento>
+    <construtora>Construtora D</construtora>
+    <cidade>Curitiba</cidade>
+    <area_do_terreno>6500</area_do_terreno>
+    <numero_de_torres>2</numero_de_torres>
+    <altura_da_torre>28</altura_da_torre>
+    <area_da_torre>2500</area_da_torre>
+    <area_de_lazer>700</area_de_lazer>
+  </empreendimento>
+  <empreendimento>
+    <construtora>Construtora E</construtora>
+    <cidade>Porto Alegre</cidade>
+    <area_do_terreno>7000</area_do_terreno>
+    <numero_de_torres>1</numero_de_torres>
+    <altura_da_torre>15</altura_da_torre>
+    <area_da_torre>5000</area_da_torre>
+    <area_de_lazer>0</area_de_lazer>
+  </empreendimento>
+  <empreendimento>
+    <construtora>Construtora F</construtora>
+    <cidade>Brasília</cidade>
+    <area_do_terreno>12000</area_do_terreno>
+    <numero_de_torres>4</numero_de_torres>
+    <altura_da_torre>29</altura_da_torre>
+    <area_da_torre>2000</area_da_torre>
+    <area_de_lazer>1300</area_de_lazer>
+  </empreendimento>
+  <empreendimento>
+    <construtora>Construtora G</construtora>
+    <cidade>Salvador</cidade>
+    <area_do_terreno>9000</area_do_terreno>
+    <numero_de_torres>2</numero_de_torres>
+    <altura_da_torre>32</altura_da_torre>
+    <area_da_torre>3000</area_da_torre>
+    <area_de_lazer>1000</area_de_lazer>
+  </empreendimento>
+</empreendimentos>

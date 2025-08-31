@@ -1,0 +1,28 @@
+[package]
+name = "arqgen"
+version = "1.0.0"
+edition = "2024"
+default-run = "arqgen"
+
+[[bin]]
+name = "arqgen"
+path = "src/main.rs"
+
+[[bin]]
+name = "generate_files"
+path = "src/bin/generate_files.rs"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+csv = "1.2"
+parquet = "14.0"
+arrow = "56.1.0"
+tokio = { version = "1.47.1", features = ["full"] }
+serde-xml-rs = "0.8"
+lazy_static = "1.5.0"
+colored = "3.0.0"
+clap = { version = "4.5.46", features = ["derive"] }
+
+[dev-dependencies]
+tempfile = "3.8"
