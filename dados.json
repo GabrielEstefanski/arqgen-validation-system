@@ -1,65 +1,92 @@
 [
   {
-    "construtora": "Construtora A",
+    "construtora": "Construtora 1",
     "cidade": "São Paulo",
-    "area-do-terreno": 10000.0,
+    "area-do-terreno": 1200.0,
     "numero-de-torres": 1,
-    "altura-da-torre": 60.0,
-    "area-da-torre": 3000.0,
-    "area-de-lazer": 100.0
+    "altura-da-torre": 100.0,
+    "area-da-torre": 300.0,
+    "area-de-lazer": null
   },
   {
-    "construtora": "Construtora B",
+    "construtora": "Construtora 2",
     "cidade": "Rio de Janeiro",
-    "area-do-terreno": 8000.0,
-    "numero-de-torres": 5,
-    "altura-da-torre": 29.0,
-    "area-da-torre": 100.0,
-    "area-de-lazer": 0.0
-  },
-  {
-    "construtora": "Construtora C",
-    "cidade": "Belo Horizonte",
-    "area-do-terreno": 6000.0,
-    "numero-de-torres": 3,
-    "altura-da-torre": 20.0,
-    "area-da-torre": 1500.0,
-    "area-de-lazer": 200.0
-  },
-  {
-    "construtora": "Construtora D",
-    "cidade": "Curitiba",
-    "area-do-terreno": 6500.0,
-    "numero-de-torres": 2,
-    "altura-da-torre": 28.0,
-    "area-da-torre": 2500.0,
-    "area-de-lazer": 700.0
-  },
-  {
-    "construtora": "Construtora E",
-    "cidade": "Porto Alegre",
-    "area-do-terreno": 7000.0,
-    "numero-de-torres": 1,
-    "altura-da-torre": 15.0,
-    "area-da-torre": 5000.0,
-    "area-de-lazer": 0.0
-  },
-  {
-    "construtora": "Construtora F",
-    "cidade": "Brasília",
-    "area-do-terreno": 12000.0,
+    "area-do-terreno": 800.0,
     "numero-de-torres": 4,
-    "altura-da-torre": 29.0,
-    "area-da-torre": 2000.0,
-    "area-de-lazer": 1300.0
+    "altura-da-torre": 25.0,
+    "area-da-torre": 100.0,
+    "area-de-lazer": null
   },
   {
-    "construtora": "Construtora G",
-    "cidade": "Salvador",
-    "area-do-terreno": 9000.0,
+    "construtora": "Construtora 3",
+    "cidade": "Belo Horizonte",
+    "area-do-terreno": 900.0,
     "numero-de-torres": 2,
-    "altura-da-torre": 32.0,
-    "area-da-torre": 3000.0,
-    "area-de-lazer": 1000.0
+    "altura-da-torre": 20.0,
+    "area-da-torre": 200.0,
+    "area-de-lazer": 50.0
+  },
+  {
+    "construtora": "Construtora 4",
+    "cidade": "Curitiba",
+    "area-do-terreno": 1100.0,
+    "numero-de-torres": 2,
+    "altura-da-torre": 22.0,
+    "area-da-torre": 280.0,
+    "area-de-lazer": null
+  },
+  {
+    "construtora": "Construtora 5",
+    "cidade": "Porto Alegre",
+    "area-do-terreno": 1000.0,
+    "numero-de-torres": 2,
+    "altura-da-torre": 29.0,
+    "area-da-torre": 250.0,
+    "area-de-lazer": 150.0
+  },
+  {
+    "construtora": "Construtora 6",
+    "cidade": "Boituva",
+    "area-do-terreno": 1500.0,
+    "numero-de-torres": 6,
+    "altura-da-torre": 18.0,
+    "area-da-torre": 150.0,
+    "area-de-lazer": 150.0
+  },
+  {
+    "construtora": "Alpha",
+    "cidade": "Salvador",
+    "area-do-terreno": 100.0,
+    "numero-de-torres": 1,
+    "altura-da-torre": 20.0,
+    "area-da-torre": 50.0,
+    "area-de-lazer": null
+  },
+  {
+    "construtora": "Beta",
+    "cidade": "Guaratinguetá",
+    "area-do-terreno": 1300.0,
+    "numero-de-torres": 2,
+    "altura-da-torre": 26.0,
+    "area-da-torre": 220.0,
+    "area-de-lazer": 150.0
+  },
+  {
+    "construtora": "Eta",
+    "cidade": "Guaratinguetá",
+    "area-do-terreno": 1300.0,
+    "numero-de-torres": 3,
+    "altura-da-torre": 21.0,
+    "area-da-torre": 220.0,
+    "area-de-lazer": 150.0
+  },
+  {
+    "construtora": "Épsilon",
+    "cidade": "Guaratinguetá",
+    "area-do-terreno": 1300.0,
+    "numero-de-torres": 4,
+    "altura-da-torre": 16.0,
+    "area-da-torre": 220.0,
+    "area-de-lazer": 150.0
   }
 ]

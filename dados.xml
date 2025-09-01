@@ -1,66 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <empreendimentos>
   <empreendimento>
-    <construtora>Construtora A</construtora>
+    <construtora>Construtora 1</construtora>
     <cidade>São Paulo</cidade>
-    <area_do_terreno>10000</area_do_terreno>
+    <area_do_terreno>1200</area_do_terreno>
     <numero_de_torres>1</numero_de_torres>
-    <altura_da_torre>60</altura_da_torre>
-    <area_da_torre>3000</area_da_torre>
-    <area_de_lazer>100</area_de_lazer>
+    <altura_da_torre>100</altura_da_torre>
+    <area_da_torre>300</area_da_torre>
+    <area_de_lazer>0</area_de_lazer>
   </empreendimento>
   <empreendimento>
-    <construtora>Construtora B</construtora>
+    <construtora>Construtora 2</construtora>
     <cidade>Rio de Janeiro</cidade>
-    <area_do_terreno>8000</area_do_terreno>
-    <numero_de_torres>5</numero_de_torres>
-    <altura_da_torre>29</altura_da_torre>
+    <area_do_terreno>800</area_do_terreno>
+    <numero_de_torres>4</numero_de_torres>
+    <altura_da_torre>25</altura_da_torre>
     <area_da_torre>100</area_da_torre>
     <area_de_lazer>0</area_de_lazer>
   </empreendimento>
   <empreendimento>
-    <construtora>Construtora C</construtora>
+    <construtora>Construtora 3</construtora>
     <cidade>Belo Horizonte</cidade>
-    <area_do_terreno>6000</area_do_terreno>
-    <numero_de_torres>3</numero_de_torres>
-    <altura_da_torre>20</altura_da_torre>
-    <area_da_torre>1500</area_da_torre>
-    <area_de_lazer>200</area_de_lazer>
-  </empreendimento>
-  <empreendimento>
-    <construtora>Construtora D</construtora>
-    <cidade>Curitiba</cidade>
-    <area_do_terreno>6500</area_do_terreno>
+    <area_do_terreno>900</area_do_terreno>
     <numero_de_torres>2</numero_de_torres>
-    <altura_da_torre>28</altura_da_torre>
-    <area_da_torre>2500</area_da_torre>
-    <area_de_lazer>700</area_de_lazer>
+    <altura_da_torre>20</altura_da_torre>
+    <area_da_torre>200</area_da_torre>
+    <area_de_lazer>50</area_de_lazer>
   </empreendimento>
   <empreendimento>
-    <construtora>Construtora E</construtora>
-    <cidade>Porto Alegre</cidade>
-    <area_do_terreno>7000</area_do_terreno>
-    <numero_de_torres>1</numero_de_torres>
-    <altura_da_torre>15</altura_da_torre>
-    <area_da_torre>5000</area_da_torre>
+    <construtora>Construtora 4</construtora>
+    <cidade>Curitiba</cidade>
+    <area_do_terreno>1100</area_do_terreno>
+    <numero_de_torres>2</numero_de_torres>
+    <altura_da_torre>22</altura_da_torre>
+    <area_da_torre>280</area_da_torre>
     <area_de_lazer>0</area_de_lazer>
   </empreendimento>
   <empreendimento>
-    <construtora>Construtora F</construtora>
-    <cidade>Brasília</cidade>
-    <area_do_terreno>12000</area_do_terreno>
-    <numero_de_torres>4</numero_de_torres>
+    <construtora>Construtora 5</construtora>
+    <cidade>Porto Alegre</cidade>
+    <area_do_terreno>1000</area_do_terreno>
+    <numero_de_torres>2</numero_de_torres>
     <altura_da_torre>29</altura_da_torre>
-    <area_da_torre>2000</area_da_torre>
-    <area_de_lazer>1300</area_de_lazer>
+    <area_da_torre>250</area_da_torre>
+    <area_de_lazer>150</area_de_lazer>
   </empreendimento>
   <empreendimento>
-    <construtora>Construtora G</construtora>
+    <construtora>Construtora 6</construtora>
+    <cidade>Boituva</cidade>
+    <area_do_terreno>1500</area_do_terreno>
+    <numero_de_torres>6</numero_de_torres>
+    <altura_da_torre>18</altura_da_torre>
+    <area_da_torre>150</area_da_torre>
+    <area_de_lazer>150</area_de_lazer>
+  </empreendimento>
+  <empreendimento>
+    <construtora>Alpha</construtora>
     <cidade>Salvador</cidade>
-    <area_do_terreno>9000</area_do_terreno>
+    <area_do_terreno>100</area_do_terreno>
+    <numero_de_torres>1</numero_de_torres>
+    <altura_da_torre>20</altura_da_torre>
+    <area_da_torre>50</area_da_torre>
+    <area_de_lazer>0</area_de_lazer>
+  </empreendimento>
+  <empreendimento>
+    <construtora>Beta</construtora>
+    <cidade>Guaratinguetá</cidade>
+    <area_do_terreno>1300</area_do_terreno>
     <numero_de_torres>2</numero_de_torres>
-    <altura_da_torre>32</altura_da_torre>
-    <area_da_torre>3000</area_da_torre>
-    <area_de_lazer>1000</area_de_lazer>
+    <altura_da_torre>26</altura_da_torre>
+    <area_da_torre>220</area_da_torre>
+    <area_de_lazer>150</area_de_lazer>
+  </empreendimento>
+  <empreendimento>
+    <construtora>Eta</construtora>
+    <cidade>Guaratinguetá</cidade>
+    <area_do_terreno>1300</area_do_terreno>
+    <numero_de_torres>3</numero_de_torres>
+    <altura_da_torre>21</altura_da_torre>
+    <area_da_torre>220</area_da_torre>
+    <area_de_lazer>150</area_de_lazer>
+  </empreendimento>
+  <empreendimento>
+    <construtora>Épsilon</construtora>
+    <cidade>Guaratinguetá</cidade>
+    <area_do_terreno>1300</area_do_terreno>
+    <numero_de_torres>4</numero_de_torres>
+    <altura_da_torre>16</altura_da_torre>
+    <area_da_torre>220</area_da_torre>
+    <area_de_lazer>150</area_de_lazer>
   </empreendimento>
 </empreendimentos>
