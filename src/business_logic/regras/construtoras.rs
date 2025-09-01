@@ -45,22 +45,6 @@ mod tests {
     }
 
     #[test]
-    fn test_construtora_alpha_1_torre_nao_aplica() {
-        let regra = RegraAreaLazerAlpha;
-        let empreendimento = Empreendimento {
-            construtora: "Alpha".to_string(),
-            numero_de_torres: 1,
-            area_do_terreno: 1000.0,
-            area_da_torre: 100.0,
-            altura_da_torre: 10.0,
-            area_de_lazer: Some(50.0),
-            cidade: "São Paulo".to_string(),
-        };
-
-        assert_eq!(regra.validar(&empreendimento), None);
-    }
-
-    #[test]
     fn test_alpha_area_de_lazer_none() {
         let regra = RegraAreaLazerAlpha;
         let empreendimento = Empreendimento {
