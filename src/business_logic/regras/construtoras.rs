@@ -6,7 +6,7 @@ pub struct RegraAreaLazerAlpha;
 
 impl RegraNegocio for RegraAreaLazerAlpha {
     fn validar(&self, e: &Empreendimento) -> Option<String> {
-        if e.construtora != "Alpha" || e.numero_de_torres <= 1 {
+        if e.construtora != "Alpha" {
             return None;
         }
         match e.area_de_lazer {
